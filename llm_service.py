@@ -34,7 +34,7 @@ async def get_usd_rate() -> float:
         async with aiohttp.ClientSession() as session:
             async with session.get(url, timeout=5) as response:
                 if response.status == 200:
-                    data = await response.json(content_type=None)
+                    data = await response.json()
                     return float(data["Valute"]["USD"]["Value"])
                 logging.warning(
                     "ЦБ РФ вернул неожиданный статус %s", response.status
