@@ -1,4 +1,6 @@
-# Telegram AI Assistant
+  # Telegram AI Assistant
+
+Telegram-бот с поддержкой OpenAI GPT и несколькими режимами работы (помощник, разработчик, аналитик)
 
 Учебный Telegram-бот на aiogram 3 с поддержкой LLM (OpenAI) и несколькими режимами ответов. Проект демонстрирует работу с памятью диалога, переключением ролей и расчётом стоимости запросов.
 
@@ -109,3 +111,4 @@ python main.py
 Email: georgy.belyanin@gmail.com  
 Telegram: [@GBDialogFlowRU_bot](https://t.me/GBDialogFlowRU_bot)
 
+python aiogram telegram-bot openai gpt chatgpt llm
